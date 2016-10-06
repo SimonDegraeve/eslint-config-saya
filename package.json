@@ -1,0 +1,49 @@
+{
+  "name": "eslint-config-saya",
+  "version": "0.0.0",
+  "description": "Opinionated ESLint configuration",
+  "license": "MIT",
+  "author": "Simon Degrave <simon.degraeve@gmail.com>",
+  "repository": "github:SimonDegraeve/eslint-config-saya",
+  "homepage": "https://github.com/SimonDegraeve/eslint-config-saya#readme",
+  "bugs": "https://github.com/SimonDegraeve/eslint-config-saya/issues",
+  "files": [
+    "lib",
+    "index.js",
+    "babel.js",
+    "flow.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "saya"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest --config .jestrc --coverage",
+    "clean": "rimraf lib",
+    "transpile": "babel --copy-files --out-dir lib --ignore *.test.js,__*__ src",
+    "build": "npm run clean && npm run transpile",
+    "report-coverage": "codecov --file node_modules/.coverage/lcov.info",
+    "release": "terbit --changelog-preset saya"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "8.0.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-flowtype": "^2.19.0",
+    "eslint-plugin-import": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-jest": "^16.0.0",
+    "babel-preset-saya": "*",
+    "codecov": "^1.0.1",
+    "conventional-changelog-saya": "*",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb-base": "8.0.0",
+    "jest": "^16.0.1",
+    "rimraf": "^2.5.4",
+    "terbit": "*"
+  }
+}
