@@ -1,5 +1,5 @@
 # eslint-config-saya
-Opinionated ESLint configuration
+An opinionated `eslint` configuration
 
 [![NPM Version][npm-img]][npm-link]
 [![Licence][licence-img]][licence-link]
