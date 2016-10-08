@@ -35,6 +35,6 @@
   "devDependencies": {
     "eslint": "^3.6.1",
     "eslint-config-airbnb-base": "8.0.0",
-    "kode": "^2.0.1"
+    "kode": "^2.1.0"
   }
 }
