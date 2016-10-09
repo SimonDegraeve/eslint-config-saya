@@ -1,8 +1,6 @@
-<a name="5.0.0"></a>
-## 5.0.0
-> 2016-10-06
+<a name="5.0.1"></a>
+## [5.0.1](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.0...v5.0.1)
+> 2016-10-09
 
-* [42a2550](https://github.com/simondegraeve/eslint-config-saya/commit/42a2550) **Feature:** Add base config
-* [7304f90](https://github.com/simondegraeve/eslint-config-saya/commit/7304f90) **Feature:** Add babel config
-* [22aa38e](https://github.com/simondegraeve/eslint-config-saya/commit/22aa38e) **Feature:** Add flow config
+* [8160e15](https://github.com/simondegraeve/eslint-config-saya/commit/8160e15) **Tweak:** Change rules
 
