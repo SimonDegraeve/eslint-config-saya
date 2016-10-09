@@ -11,8 +11,12 @@ module.exports = {
   rules: {
     'no-underscore-dangle': ['off'],
     'global-require': ['off'],
+    'no-use-before-define': ['warn'],
     'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'import/prefer-default-export': ['off'],
-    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.js'] }],
+    'import/imports-first': ['off'],
+    'import/no-extraneous-dependencies': ['error', {
+      devDependencies: ['**/*.test.js', '**/__mocks__/**', '**/__fixtures__/**'],
+    }],
   },
 };
