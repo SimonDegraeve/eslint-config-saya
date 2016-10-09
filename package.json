@@ -29,12 +29,12 @@
     "babel-eslint": "^7.0.0",
     "eslint-config-airbnb-base": "8.0.0",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-flowtype": "^2.19.0",
+    "eslint-plugin-flowtype": "^2.20.0",
     "eslint-plugin-import": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.6.1",
+    "eslint": "^3.7.1",
     "eslint-config-airbnb-base": "8.0.0",
-    "kode": "^2.1.0"
+    "kode": "^2.2.0"
   }
 }
