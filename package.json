@@ -35,6 +35,17 @@
   "devDependencies": {
     "eslint": "^3.7.1",
     "eslint-config-airbnb-base": "8.0.0",
-    "kode": "^2.2.0"
+    "kode": "^2.3.2"
+  },
+  "babel": {
+    "presets": [
+      "saya"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "saya"
+  },
+  "jest": {
+    "preset": "jest-preset-saya"
   }
 }
