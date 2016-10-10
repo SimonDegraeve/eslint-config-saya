@@ -1,4 +1,4 @@
 /**
  *
  */
-module.exports = require('./lib/base-config');
+module.exports = require('./lib/babel-config');
