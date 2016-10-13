@@ -3,18 +3,10 @@
   "version": "5.0.4",
   "description": "An opinionated `eslint` configuration",
   "license": "MIT",
-  "author": {
-    "name": "Simon Degrave",
-    "email": "simon.degraeve@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simondegraeve/eslint-config-saya.git"
-  },
+  "author": "Simon Degrave <simon.degraeve@gmail.com>",
+  "repository": "github:SimonDegraeve/eslint-config-saya",
   "homepage": "https://github.com/SimonDegraeve/eslint-config-saya#readme",
-  "bugs": {
-    "url": "https://github.com/SimonDegraeve/eslint-config-saya/issues"
-  },
+  "bugs": "https://github.com/SimonDegraeve/eslint-config-saya/issues",
   "files": [
     "lib",
     "index.js",
@@ -55,7 +47,5 @@
   },
   "jest": {
     "preset": "jest-preset-saya"
-  },
-  "readme": "ERROR: No README data found!",
-  "_id": "eslint-config-saya@5.0.3"
+  }
 }
