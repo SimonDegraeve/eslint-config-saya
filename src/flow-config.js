@@ -35,7 +35,7 @@ module.exports = {
     'flowtype/space-before-type-colon': ['error', 'never'],
     'flowtype/space-after-type-colon': ['error', 'always'],
     'flowtype/space-before-generic-bracket': ['error', 'never'],
-    'flowtype/type-id-match': ['error', '^[A-Z][a-z0-9]*$'],
+    'flowtype/type-id-match': ['error', '^[A-Z][A-Za-z0-9]*[a-z0-9]$'],
     'flowtype/union-intersection-spacing': ['error', 'always'],
     'flowtype/use-flow-type': ['error'],
   },
