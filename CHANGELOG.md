@@ -1,3 +1,9 @@
+<a name="5.0.6"></a>
+## [5.0.6](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.5...v5.0.6)
+> 2016-10-14
+
+* [bd33e8a](https://github.com/simondegraeve/eslint-config-saya/commit/bd33e8a) **Tweak:** Allow multiple uppercase character in flowtype id
+
 <a name="5.0.5"></a>
 ## [5.0.5](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.4...v5.0.5)
 > 2016-10-13
