@@ -1,3 +1,9 @@
+<a name="5.0.7"></a>
+## [5.0.7](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.6...v5.0.7)
+> 2016-10-20
+
+* [cbbbf2f](https://github.com/simondegraeve/eslint-config-saya/commit/cbbbf2f) **Dependency:** Update `eslint-config-airbnb-base` to 9.0.0
+
 <a name="5.0.6"></a>
 ## [5.0.6](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.5...v5.0.6)
 > 2016-10-14
