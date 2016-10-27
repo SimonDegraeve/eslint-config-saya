@@ -9,6 +9,7 @@ module.exports = {
   },
 
   rules: {
+    'no-duplicate-imports': ['off'],
     'no-underscore-dangle': ['off'],
     'global-require': ['off'],
     'no-use-before-define': ['warn'],
