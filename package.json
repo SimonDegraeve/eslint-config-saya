@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-saya",
-  "version": "5.0.7",
+  "version": "5.0.8",
   "description": "An opinionated `eslint` configuration",
   "license": "MIT",
   "author": "Simon Degrave <simon.degraeve@gmail.com>",

@@ -1,3 +1,11 @@
+<a name="5.0.8"></a>
+## [5.0.8](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.7...v5.0.8)
+> 2016-10-27
+
+* [6ca4bf6](https://github.com/simondegraeve/eslint-config-saya/commit/6ca4bf6) **Tweak:** Update dependencies
+* [6216f87](https://github.com/simondegraeve/eslint-config-saya/commit/6216f87) **Tweak:** Increase the maximum length of a line
+* [8d311dc](https://github.com/simondegraeve/eslint-config-saya/commit/8d311dc) **Tweak:** Allow duplicate imports (useful when importing flow types)
+
 <a name="5.0.7"></a>
 ## [5.0.7](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.6...v5.0.7)
 > 2016-10-20
