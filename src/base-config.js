@@ -18,5 +18,11 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: ['**/*.test.js', '**/__mocks__/**', '**/__fixtures__/**'],
     }],
+    'max-len': ['error', 150, 2, {
+      ignoreUrls: true,
+      ignoreComments: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
   },
 };
