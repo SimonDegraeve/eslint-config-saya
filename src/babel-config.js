@@ -48,6 +48,6 @@ module.exports = {
     // Specific rules
     'babel/no-await-in-loop': ['error'],
     'babel/flow-object-type': ['error', 'comma'],
-    'babel/func-params-comma-dangle': airbnbRules['comma-dangle'],
+    'babel/func-params-comma-dangle': ['error', 'always-multiline'],
   },
 };

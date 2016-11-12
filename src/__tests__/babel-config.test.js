@@ -16,16 +16,8 @@ test('exports a valid ESLint configuration', () => {
 
   const { results: [result] } = cli.executeOnText(`
     /* eslint-disable no-trailing-spaces, eol-last */
-    function fn(
-      a,
-      b
-    ) {
-      return [a, b];
-    }
-    fn();
+    export x from 'module';
   `);
-
-  expect(result.errorCount).toBe(1);
+  expect(result.errorCount).toBe(0);
   expect(result.warningCount).toBe(0);
-  expect(result.messages[0].ruleId).toBe('babel/func-params-comma-dangle');
 });
