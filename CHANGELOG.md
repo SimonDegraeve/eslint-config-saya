@@ -1,3 +1,9 @@
+<a name="5.0.10"></a>
+## [5.0.10](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.9...v5.0.10)
+> 2016-11-12
+
+* [7c095c2](https://github.com/simondegraeve/eslint-config-saya/commit/7c095c2) **Tweak:** Use babel config with react
+
 <a name="5.0.9"></a>
 ## [5.0.9](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.8...v5.0.9)
 > 2016-11-12
