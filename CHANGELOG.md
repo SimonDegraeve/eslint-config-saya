@@ -1,3 +1,9 @@
+<a name="5.0.9"></a>
+## [5.0.9](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.8...v5.0.9)
+> 2016-11-12
+
+* [e52eefb](https://github.com/simondegraeve/eslint-config-saya/commit/e52eefb) **Tweak:** Add react config
+
 <a name="5.0.8"></a>
 ## [5.0.8](https://github.com/simondegraeve/eslint-config-saya/compare/v5.0.7...v5.0.8)
 > 2016-10-27
